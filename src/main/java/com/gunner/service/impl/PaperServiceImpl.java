@@ -3,6 +3,7 @@ package com.gunner.service.impl;
 import com.gunner.model.pojo.Paper;
 import com.gunner.dao.mapper.PaperMapper;
 import com.gunner.service.PaperService;
+import org.apache.ibatis.session.RowBounds;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
